@@ -5,7 +5,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const BackgroundImage: React.FC<Props> = ({ children }: Props) => {
+const BackgroundImage = ({ children }: Props) => {
   return <div className={styles.bg_image}>{children}</div>;
 };
 
