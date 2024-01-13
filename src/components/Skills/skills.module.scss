@@ -1,0 +1,29 @@
+.skills_container {
+  margin-top: 5rem;
+}
+
+.skills_title_container {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skills_item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.skill {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

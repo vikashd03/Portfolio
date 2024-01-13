@@ -1,0 +1,23 @@
+.profile_container {
+  margin-top: 7rem;
+  color: rgba(255, 255, 255, 0.821);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 40%;
+  right: 0;
+}
+
+.profile_img {
+  border-radius: 20px;
+  display: block;
+  //   margin: 0 auto;
+}
+
+.socialmedia_links {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

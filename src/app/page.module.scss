@@ -1,0 +1,22 @@
+.main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 18px;
+  font-weight: 550;
+  color: rgb(28, 28, 28);
+
+  padding: 0 2rem;
+  width: 60%;
+}
+
+.content_item {
+  margin-bottom: 10rem;
+}

@@ -1,0 +1,42 @@
+/* styles/global.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a global font family */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+/* Define some basic styles for links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+/* Set a global max-width for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+}
