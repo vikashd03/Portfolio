@@ -1,9 +1,9 @@
 import ProfileSection from "@/components/Profile/ProfileSection";
 import styles from "./page.module.scss";
-import About from "@/components/About/About";
-import Skills from "@/components/Skills/Skills";
-import Experience from "@/components/Experience/Experience";
-import Projects from "@/components/Projects/Projects";
+import About from "@/components/contents/About/About";
+import Skills from "@/components/contents/Skills/Skills";
+import Experience from "@/components/contents/Experience/Experience";
+import Projects from "@/components/contents/Projects/Projects";
 
 export default function Home() {
   return (
@@ -21,8 +21,19 @@ export default function Home() {
         <div id="projects" className={styles.content_item}>
           <Projects />
         </div>
+        <div className={styles.footer}>
+          <p>
+            {"/* "}
+            Crafted with Next.js and TypeScript, our app seamlessly blends
+            efficiency and modernity. Styled with Sass and deployed on Vercel,
+            ensuring a user experience that&apos;s as polished as the Inter
+            typeface itself.{" */"}
+          </p>
+        </div>
       </div>
-      <ProfileSection />
+      <div id="home">
+        <ProfileSection />
+      </div>
     </div>
   );
 }

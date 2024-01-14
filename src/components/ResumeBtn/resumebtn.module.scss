@@ -1,18 +1,32 @@
 .resume_btn {
-  border: 2px solid rgb(0, 0, 255);
+  border: 3px solid rgb(200, 0, 255);
   border-radius: 7px;
   text-decoration: none;
   color: white;
-  height: 2rem;
-  width: 5rem;
+  height: 2.5rem;
+  width: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   cursor: pointer;
   transition: 0.2s;
+  font-size: 18px;
 }
 
 .resume_btn:hover {
-  height: 2.2rem;
-  width: 5.5rem;
+  background-color: rgba(200, 0, 255, 0.256);
+}
+
+@media (max-width: 767px) {
+  .resume_btn {
+    height: 2rem;
+    width: 5rem;
+  }
+
+  .resume_btn:active {
+    height: 1.7rem;
+    width: 4.5rem;
+    font-size: 13px;
+  }
 }

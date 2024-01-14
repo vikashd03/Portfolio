@@ -1,4 +1,18 @@
 .scroll_button {
   color: white;
-  font-size: 22px;
+  font-size: 25px;
+  // font-weight: 550;
+  transition: 0.3s;
+  padding: 3px 6px;
+}
+
+.scroll_button:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.304);
+}
+
+@media (max-width: 767px) {
+  .scroll_button {
+    font-size: 20px;
+  }
 }

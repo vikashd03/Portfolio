@@ -5,7 +5,7 @@ const Skills = () => {
   const skillsList: { [skillType: string]: string[] } = {
     frontend: ["JavaScript", "TypeScript", "React JS", "Next JS", "HTML/CSS"],
     backend: ["Node JS", "Express JS", "Django", "Flask"],
-    database: ["SQL", "PostgreSQL", "MongoDB"],
+    database: ["SQL", "PostgreSQL", "MongoDB", "Prisma"],
     tools: [
       "Linux",
       "Docker",
@@ -20,11 +20,13 @@ const Skills = () => {
   };
   return (
     <div className={styles.skills_container}>
-      <h1>Skills</h1>
+      <h1>
+        <u>Skills</u>
+      </h1>
       <div className={styles.skills_title_container}>
         {Object.keys(skillsList).map((skillType, index) => (
           <div className={styles.skills_item} key={index}>
-            <h3>{skillType[0].toUpperCase() + skillType.slice(1) + " :"}</h3>
+            <h2>{skillType[0].toUpperCase() + skillType.slice(1) + " :"}</h2>
             <div className={styles.skills}>
               {skillsList[skillType].map((skill, index) => (
                 <div className={styles.skill} key={index}>

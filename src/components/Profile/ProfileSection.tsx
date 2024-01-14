@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./profilesection.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { FaLinkedin, FaGithub, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 const ProfileSection = () => {
   return (
@@ -14,15 +16,25 @@ const ProfileSection = () => {
         className={styles.profile_img}
       />
       <br />
-      <h1>Vikash Dhanabal</h1>
+      <h2>Vikash Dhanabal</h2>
       <h3>Associate Software Engineer at Zscaler</h3>
       <br />
       <div className={styles.socialmedia_links}>
         <Link href="https://www.linkedin.com/in/vikash-dhanabal/">
-          LinkedIn
+          <FaLinkedin size={30} className={styles.socialmedia_link} />
         </Link>
-        <Link href="https://github.com/vikashd03">GitHub</Link>
-        <Link href="https://instagram.com/vikashdhanabal">Instagram</Link>
+        <Link href="https://github.com/vikashd03">
+          <FaGithub size={30} className={styles.socialmedia_link} />
+        </Link>
+        <Link href="https://instagram.com/vikashdhanabal">
+          <FaInstagram size={30} className={styles.socialmedia_link} />
+        </Link>
+        <Link href="mailto:vikashdhanabal003@gmial.com">
+          <FiMail size={32} className={styles.socialmedia_link} />
+        </Link>
+        <Link href="tel:+916382182587">
+          <FaPhoneAlt size={22} className={styles.socialmedia_link} />
+        </Link>
       </div>
     </div>
   );

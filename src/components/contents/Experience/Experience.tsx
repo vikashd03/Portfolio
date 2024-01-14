@@ -4,7 +4,9 @@ import styles from "./experience.module.scss";
 const Experience = () => {
   return (
     <div className={styles.experience_container}>
-      <h1>Experience</h1>
+      <h1>
+        <u>Experience</u>
+      </h1>
       <br />
       <div>
         <h2>Associate Software Engineer, Zscaler</h2>

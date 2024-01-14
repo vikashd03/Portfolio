@@ -1,15 +1,14 @@
 .navbar {
-  position: fixed;
   height: 5rem;
   display: flex;
   align-items: center;
   padding: 0 30px;
   width: 100%;
+  position: fixed;
 }
 
 .right_nav {
   margin-left: auto;
-  float: right;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,11 +16,23 @@
   gap: 1rem;
 }
 
-.nav_item {
-  color: white;
-  font-size: 22px;
+.home_btn {
+  display: none;
 }
 
 .profile_img {
   border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    overflow-x: scroll;
+    height: 4rem;
+    margin-left: auto;
+    background-color: #202c6c;
+  }
+
+  .home_btn {
+    display: block;
+  }
 }

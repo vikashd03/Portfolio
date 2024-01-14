@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./projects.module.scss";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <div className={styles.projects_container}>
-      <h1>Projects</h1>
+      <h1>
+        <u>Projects</u>
+      </h1>
       <br />
       <div className={styles.project_container}>
         <div className={styles.project_title_container}>
@@ -14,14 +17,19 @@ const Projects = () => {
         </div>
         <div className={styles.techstack_git_container}>
           <span>
-            Tech Stack : NextJS, ExpressJS, TypeScript, MongoDB, Prisma, HTML,
-            CSS, Docker
+            <b>
+              <u>Tech Stack</u>
+            </b>{" "}
+            :{" "}
+            <i>
+              NextJS, ExpressJS, TypeScript, MongoDB, Prisma, HTML, CSS, Docker
+            </i>
           </span>
           <Link
             target="_blank"
             href="https://github.com/vikashd03/nextjs-ecommerce"
           >
-            GitHub
+            <FaGithub size={30} />
           </Link>
         </div>
         <br />
@@ -30,9 +38,6 @@ const Projects = () => {
             <li>
               Developed a full-stack web application using NodeJS serving a REST
               API with HTML, CSS, and EJS as the frontend
-            </li>
-            <li>
-              Used GIT for version control system, and pushed it to Github
             </li>
             <li>
               Containerized the application using docker and hosted it on AWS
@@ -53,10 +58,13 @@ const Projects = () => {
         </div>
         <div className={styles.techstack_git_container}>
           <span>
-            Tech Stack : ReactJS, ExpressJS, Typescript, MongoDB, HTML, CSS
+            <b>
+              <u>Tech Stack</u>
+            </b>{" "}
+            : <i>ReactJS, ExpressJS, Typescript, MongoDB, HTML, CSS</i>
           </span>
           <Link target="_blank" href="https://github.com/vikashd03/Taskify">
-            GitHub
+            <FaGithub size={30} />
           </Link>
         </div>
         <br />

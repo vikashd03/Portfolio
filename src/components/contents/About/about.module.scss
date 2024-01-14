@@ -1,0 +1,14 @@
+.about_container {
+  margin-top: 7rem;
+  color: rgb(194, 194, 194);
+}
+
+.about_item {
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .about_container {
+    margin-top: 5rem;
+  }
+}

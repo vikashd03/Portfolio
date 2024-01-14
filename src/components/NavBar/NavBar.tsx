@@ -7,6 +7,9 @@ const NavBar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.right_nav}>
+        <div className={styles.home_btn}>
+          <ScrollButton targetId="home" buttonText="Home" />
+        </div>
         <ScrollButton targetId="about" buttonText="About" />
         <ScrollButton targetId="skills" buttonText="Skills" />
         <ScrollButton targetId="experience" buttonText="Experience" />
