@@ -25,6 +25,7 @@
 
 .socialmedia_link {
   transition: 0.3s;
+  z-index: 1;
 }
 
 .socialmedia_link:hover {
@@ -33,10 +34,10 @@
 
 @media (max-width: 767px) {
   .profile_container {
-    margin-top: 6.5rem;
+    margin-top: 5.5rem;
     width: 100%;
     order: 0;
-    position: static;
+    position: relative;
     margin-bottom: -3rem;
   }
 

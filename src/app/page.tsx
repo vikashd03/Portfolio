@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.footer}>
           <p>
             {"/* "}
-            Crafted with Next.js and TypeScript, our app seamlessly blends
+            Crafted with Next.js and TypeScript, this app seamlessly blends
             efficiency and modernity. Styled with Sass and deployed on Vercel,
             ensuring a user experience that&apos;s as polished as the Inter
             typeface itself.{" */"}
