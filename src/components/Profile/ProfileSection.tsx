@@ -32,7 +32,7 @@ const ProfileSection = () => {
         <Link href="https://instagram.com/vikashdhanabal" target="_blank">
           <FaInstagram size={30} className={styles.socialmedia_link} />
         </Link>
-        <Link href="mailto:vikashdhanabal003@gmial.com" target="_blank">
+        <Link href="mailto:vikashdhanabal003@gmail.com" target="_blank">
           <FiMail size={32} className={styles.socialmedia_link} />
         </Link>
         <Link href="tel:+916382182587" target="_blank">
