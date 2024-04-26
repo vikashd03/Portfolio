@@ -6,8 +6,8 @@ const ResumeBtn = () => {
   return (
     <Link
       target="_blank"
-      // href="https://drive.google.com/file/d/1OKVUyXezSOOEcZA2vyw6h7388EmUGqe5/view?usp=sharing"
-      href="/VikashDhanabal_Resume.pdf"
+      href="https://drive.google.com/file/d/1OKVUyXezSOOEcZA2vyw6h7388EmUGqe5/view"
+      // href="/VikashDhanabal_Resume.pdf"
       className={styles.resume_btn}
     >
       Resume
