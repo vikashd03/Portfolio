@@ -1,4 +1,22 @@
 .experience_container {
   margin-top: 7rem;
   // padding-bottom: 6rem;
+  color: rgb(212, 212, 212);
+}
+
+.experience_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.duration {
+  white-space: nowrap;
 }

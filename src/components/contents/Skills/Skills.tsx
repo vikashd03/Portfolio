@@ -3,20 +3,37 @@ import styles from "./skills.module.scss";
 
 const Skills = () => {
   const skillsList: { [skillType: string]: string[] } = {
-    frontend: ["JavaScript", "TypeScript", "React JS", "Next JS", "HTML/CSS"],
+    frontend: [
+      "React JS",
+      "TypeScript",
+      "Next JS",
+      "Micro-Frontend",
+      "HTML/CSS",
+    ],
     backend: ["Node JS", "Express JS", "Django", "Flask"],
     database: ["SQL", "PostgreSQL", "MongoDB", "Prisma"],
     tools: [
       "Linux",
       "Docker",
+      "Gunicorn",
+      "Redis",
       "Nginx",
       "Git",
       "Postman",
-      "VMware Vsphere",
+      "VMware vSphere",
       "ELK Stack",
       "Nagios",
     ],
-    automation: ["Selenium", "Celery", "Linux Shell Scripting", "Python"],
+    libraries: [
+      "Webpack Module Federation",
+      "NPM",
+      "Redux",
+      "Mobx",
+      "Tailwind",
+      "Celery",
+      "Selenium",
+      "Jest",
+    ],
   };
   return (
     <div className={styles.skills_container}>

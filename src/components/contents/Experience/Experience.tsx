@@ -9,27 +9,33 @@ const Experience = () => {
       </h1>
       <br />
       <div>
-        <h2>Associate Software Engineer, Zscaler</h2>
+        <span className={styles.title}>
+          <h3>Software Engineer, Zscaler</h3>
+          <p className={styles.duration}>Oct. 2022 - Present</p>
+        </span>
         <br />
-        <ul>
+        <ul className={styles.experience_ul}>
           <li>
-            Developed the Automation Results Dashboard to showcase results of
-            automation sanity and regression across all products, using Next JS,
-            Express JS, Typescript, MongoDB
+            Worked on building and maintaining scalable and user-friendly{" "}
+            <b>micro-frontend-based</b> web applications for the Zscaler Posture
+            Control Product.
           </li>
           <li>
-            Developed internal Dashboard to maintain QA setups healthy using
-            Next JS, Django, shell scripting, and Postgres
-          </li>
-          <li>Wrote scripts in Python and Shell to automate tasks</li>
-          <li>
-            Ran sanity and regressions on builds, debugged the failures and
-            worked closely with other teams to fix them
+            Built custom re-usable components as part of a larger component
+            library using <b>React, Typescript, and SCSS</b>.
           </li>
           <li>
-            Configured and maintained tools like Nagios Core and
-            ELK(Elasticsearch, Logstash, and Kibana) for monitoring,logging, and
-            alerting.
+            Implemented complex frontend logic using state management tools like
+            <b>Redux, Mobx, and Custom NPM Packages</b> for Policy and
+            Investigation services in{" "}
+            <b>Data security posture management (DSPM)</b> for leading Cloud
+            Services Providers. Collaborating closely with stakeholders, refined
+            functionality and usability iteratively.
+          </li>
+          <li>
+            Wrote scripts in Python and Shell to automate tasks. Configured and
+            maintained tools like Nagios Core and ELK for monitoring, logging,
+            and alerting.
           </li>
         </ul>
       </div>

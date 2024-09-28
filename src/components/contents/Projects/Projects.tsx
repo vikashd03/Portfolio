@@ -12,8 +12,43 @@ const Projects = () => {
       <br />
       <div className={styles.project_container}>
         <div className={styles.project_title_container}>
+          <h2>Authentication System</h2>
+          <p>Apr. 2024 – Present</p>
+        </div>
+        <div className={styles.techstack_git_container}>
+          <span>
+            <b>
+              <u>Tech Stack</u>
+            </b>{" "}
+            :{" "}
+            <i>
+              ReactJS, Redux Toolkit, RTK Query, Typescript, Django, PostgreSQL,
+              JWT
+            </i>
+          </span>
+          <Link target="_blank" href="https://github.com/vikashd03/Auth">
+            <FaGithub size={30} />
+          </Link>
+        </div>
+        <br />
+        <div>
+          <ul>
+            <li>
+              Designed and implemented a multi-factor authentication system
+              using ReactJS, Redux Toolkit, and biometric verification.
+            </li>
+            <li>
+              Utilized JSON Web Tokens (JWT) with Django and PostgreSQL to
+              manage user sessions and ensure secure authorization.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div className={styles.project_container}>
+        <div className={styles.project_title_container}>
           <h2>E-Commerce Clone</h2>
-          <p>Apr. 2022 – Present</p>
+          <p>Apr. 2022 – Oct 2022</p>
         </div>
         <div className={styles.techstack_git_container}>
           <span>

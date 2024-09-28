@@ -8,15 +8,15 @@ const About = () => {
         <u>About</u>
       </h1>
       <p className={styles.about_item}>
-        Hello! I&apos;m a passionate Associate Software Engineer at Zscaler,
+        Hello! I&apos;m a passionate Software Engineer at Zscaler,
         dedicated to pushing the boundaries of innovation in full-stack
-        development. My expertise spans languages like{" "}
+        development. My expertise spans skills like{" "}
         <b>Python, JavaScript, and TypeScript,</b> allowing me to create robust
         and efficient solutions that bring ideas to life.
       </p>
       <p className={styles.about_item}>
         My journey involves hands-on experience with{" "}
-        <b>Next JS, React JS, Express JS and Django</b> by contributing to Full
+        <b>Next JS, React JS, Redux JS, Express JS and Django</b> by contributing to Full
         Stack projects.
       </p>
       <p className={styles.about_item}>

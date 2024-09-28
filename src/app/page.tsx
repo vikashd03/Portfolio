@@ -12,11 +12,11 @@ export default function Home() {
         <div id="about" className={styles.content_item}>
           <About />
         </div>
-        <div id="skills" className={styles.content_item}>
-          <Skills />
-        </div>
         <div id="experience" className={styles.content_item}>
           <Experience />
+        </div>
+        <div id="skills" className={styles.content_item}>
+          <Skills />
         </div>
         <div id="projects" className={styles.content_item}>
           <Projects />

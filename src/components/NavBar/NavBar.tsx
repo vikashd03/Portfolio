@@ -11,8 +11,8 @@ const NavBar = () => {
           <ScrollButton targetId="home" buttonText="Home" />
         </div>
         <ScrollButton targetId="about" buttonText="About" />
-        <ScrollButton targetId="skills" buttonText="Skills" />
         <ScrollButton targetId="experience" buttonText="Experience" />
+        <ScrollButton targetId="skills" buttonText="Skills" />
         <ScrollButton targetId="projects" buttonText="Projects" />
         <ResumeBtn />
       </div>
