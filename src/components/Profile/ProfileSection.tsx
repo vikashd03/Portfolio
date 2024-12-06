@@ -17,7 +17,7 @@ const ProfileSection = () => {
       />
       <br />
       <h2>Vikash Dhanabal</h2>
-      <h3>Senior Software Development Engineer at Zscaler</h3>
+      <h3>Senior Software Engineer at Zscaler</h3>
       <br />
       <div className={styles.socialmedia_links}>
         <Link
