@@ -16,7 +16,7 @@ const About = () => {
       </p>
       <p className={styles.about_item}>
         My journey involves hands-on experience with{" "}
-        <b>Next JS, React JS, Redux JS, Express JS and Django</b> by contributing to Full
+        <b>Next JS, React JS, Redux JS, Express JS, Django and FastApi</b> by contributing to Full
         Stack projects.
       </p>
       <p className={styles.about_item}>
