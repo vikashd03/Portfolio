@@ -10,7 +10,7 @@ const Experience = () => {
       <br />
       <div>
         <span className={styles.title}>
-          <h3>Software Engineer II, Zscaler</h3>
+          <h3>Senior Software Engineer, Zscaler</h3>
           <p className={styles.duration}>Oct. 2022 - Present</p>
         </span>
         <br />
